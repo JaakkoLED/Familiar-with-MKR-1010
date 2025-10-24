@@ -1,5 +1,5 @@
-PA20 = D6
-PA10 = D2
+//PA20 = D6
+//PA10 = D2
 
 #include "sam.h"
 #define LED_PIN 20 // D6 → PA20 
