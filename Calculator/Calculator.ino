@@ -19,7 +19,7 @@ if (Serial.available() > 0)
     return; 
   }
 
-  Serial.print("Syöte: ");
+  Serial.print("Values: ");
   Serial.println(input);
     
   char operaattori = ' ';
@@ -88,7 +88,7 @@ if (Serial.available() > 0)
       }
       
       
-      Serial.print("Tulos: ");
+      Serial.print("Result: ");
       Serial.println(tulos, 2);
       
     }
