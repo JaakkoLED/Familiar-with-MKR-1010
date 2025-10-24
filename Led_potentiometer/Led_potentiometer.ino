@@ -16,7 +16,7 @@ void loop()
   digitalWrite(4, HIGH);
   analogValue = analogRead(A1);
 
-  Serial.print("Potenttiometrin arvo on: ");
+  Serial.print("The value of the potentiometer: ");
   Serial.println(analogValue);
 
   digitalWrite(1, HIGH);
