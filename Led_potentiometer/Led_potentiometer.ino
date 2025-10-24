@@ -9,6 +9,7 @@ void setup()
   pinMode(1, OUTPUT);
   Serial.begin(9600);
   pinMode(4, OUTPUT);
+  digitalReadResolution(12); //12-Bit resolution for the analogRead() (0-4095). In default it reads with 10-bit resolution (0-1024)
 }
 
 void loop()
